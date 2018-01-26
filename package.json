@@ -15,7 +15,6 @@
     "benchmark": "./benchmarks/run-unit.js",
     "prettier": "prettier --single-quote --trailing-comma none --write \"{lib,examples,test}/**/*.js\"",
     "prettier:docs": "prettier-markdown README.md documentation/*",
-    "precommit": "lint-staged",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "wait-port": "wait-on"
   },
